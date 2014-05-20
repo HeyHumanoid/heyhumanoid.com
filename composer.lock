@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6974ffca77a788f14bac1c34b8ec2f30",
+    "hash": "873021d44b24b1b94aef2489430ef0b6",
     "packages": [
         {
             "name": "composer/installers",
@@ -214,6 +214,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-theme/p2",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/p2/",
+                "reference": "1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/themes/download/p2.1.5.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "http://wordpress.org/themes/p2/"
         }
     ],
     "packages-dev": [

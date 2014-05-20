@@ -53,7 +53,8 @@
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "~1.0.6",
-    "wpackagist-plugin/google-analytics-for-wordpress" : "4.3.x"
+    "wpackagist-plugin/google-analytics-for-wordpress" : "4.3.x",
+    "wpackagist-theme/p2" : "1.5.x"
   },
   "extra": {
     "installer-paths": {

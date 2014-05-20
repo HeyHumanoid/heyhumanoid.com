@@ -1,0 +1,27 @@
+/*
+ Theme Name:   HeyHumanoid P2
+ Theme URI:    https://github.com/HeyHumanoid/heyhumanoid.com
+ Description:  HeyHumanoid P2 Child Theme
+ Author:       HeyHuman
+ Author URI:   http://heyhumanoid.com
+ Template:     p2
+ Version:      1.0.0
+*/
+
+@import url(../p2/style.css);
+
+a,
+a:visited,
+h1 a:visited,
+a:active,
+#main .selected .actions a,
+#main .selected .actions a:link,
+#main .selected .actions a:visited,
+#help dt,
+#media-buttons .button,
+.main-navigation li.current-menu-item > a,
+.main-navigation li.current-menu-ancestor > a,
+.main-navigation li.current-menu-item:hover > a,
+.main-navigation li.current-menu-ancestor:hover > a {
+	color: #159e3e;
+}
